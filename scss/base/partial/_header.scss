@@ -1,0 +1,49 @@
+.header{
+    background-color: black;
+    height: 30vh;
+    .content{
+        position: relative;
+        .logo{
+            position: absolute;
+            height: 15.5rem;
+            width: 15.5rem;
+            display: inline-block;
+            left: 50%;
+            top: 50%;
+            transform: translate(-259%, 15%);
+            img{
+                height: 100%;
+                width: 100%;
+                border: 1rem solid #4d473a;
+                border-radius: 100%;
+                image-rendering: auto;
+            }
+        }
+        .profiler-intro{
+            display: inline-block;
+            color: #ffffff;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, 15%);
+            text-transform: uppercase;
+            line-height: 4rem;
+            .first-name{
+                font-size: 3.5rem;
+                display: block;
+                letter-spacing: .4rem;
+            }
+            .last-name{
+                font-size: 3.5rem;
+                letter-spacing: .4rem;
+                display: block;
+            }
+            .position{
+                font-size: 1rem;
+                letter-spacing: .4rem;
+                margin-bottom: 1rem;
+            }
+        }
+    }
+}
+

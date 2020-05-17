@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-size: 62.5%;
+  padding: 3.5rem 3.5rem 0 3.5rem;
+  height: 100%;
+  width: 100%; }
+
+h3 {
+  font-size: 1.5rem; }
+
+h4 {
+  font-size: .9rem; }
+
+.header {
+  background-color: black;
+  height: 30vh; }
+  .header .content {
+    position: relative; }
+    .header .content .logo {
+      position: absolute;
+      height: 15.5rem;
+      width: 15.5rem;
+      display: inline-block;
+      left: 50%;
+      top: 50%;
+      transform: translate(-259%, 15%); }
+      .header .content .logo img {
+        height: 100%;
+        width: 100%;
+        border: 1rem solid #4d473a;
+        border-radius: 100%;
+        image-rendering: auto; }
+    .header .content .profiler-intro {
+      display: inline-block;
+      color: #ffffff;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, 15%);
+      text-transform: uppercase;
+      line-height: 4rem; }
+      .header .content .profiler-intro .first-name {
+        font-size: 3.5rem;
+        display: block;
+        letter-spacing: .4rem; }
+      .header .content .profiler-intro .last-name {
+        font-size: 3.5rem;
+        letter-spacing: .4rem;
+        display: block; }
+      .header .content .profiler-intro .position {
+        font-size: 1rem;
+        letter-spacing: .4rem;
+        margin-bottom: 1rem; }
+
+.main {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap; }
+  .main .side-bar {
+    margin-top: 5rem;
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column; }
+    .main .side-bar .title {
+      margin-top: 3rem;
+      margin-bottom: 1rem;
+      background-color: #000;
+      text-align: center;
+      color: #fff;
+      font-size: 2rem;
+      margin-left: 5rem;
+      margin-right: 5rem;
+      text-transform: uppercase; }
+    .main .side-bar .content span {
+      font-size: 1.1rem;
+      margin-left: 5rem;
+      display: block;
+      line-height: 2rem; }
+  .main .main-content {
+    margin-top: 4rem;
+    height: 100%;
+    width: 75%;
+    border-left: .4rem double #000; }
+    .main .main-content .about, .main .main-content .education, .main .main-content .experience, .main .main-content .achievement, .main .main-content .projects {
+      margin-left: 4rem;
+      margin-bottom: 4rem; }
+    .main .main-content h3 {
+      color: #10b468; }
+    .main .main-content .title {
+      text-transform: uppercase;
+      background-color: #000;
+      color: #fff;
+      padding: 1rem;
+      width: 20%;
+      margin-bottom: 1rem; }
+      .main .main-content .title::after {
+        content: "";
+        width: 100%;
+        display: block;
+        border: 3px solid #10b468; }
+    .main .main-content .text {
+      font-size: 1rem;
+      text-align: justify;
+      text-justify: inter-word;
+      margin-bottom: 1rem; }
+    .main .main-content .education h3 {
+      line-height: 3rem; }
+    .main .main-content .education h4 {
+      letter-spacing: .1rem;
+      line-height: 1.2rem; }
+    .main .main-content .experience h3 {
+      line-height: 3rem; }
+    .main .main-content .experience h4 {
+      letter-spacing: .1rem;
+      line-height: 1.2rem; }
+    .main .main-content .achievement h3 {
+      line-height: 3rem; }
+    .main .main-content .achievement h4 {
+      letter-spacing: .1rem;
+      line-height: 1.2rem; }
+    .main .main-content .projects h3 {
+      line-height: 3rem; }
+    .main .main-content .projects h4 {
+      letter-spacing: .1rem;
+      line-height: 1.2rem; }
+  .main .skill {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+    .main .skill i {
+      margin-bottom: 1rem;
+      display: block; }
+  .main .hobbies {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+    .main .hobbies i {
+      margin-bottom: 1rem;
+      display: block; }
+
+.footer {
+  width: 100%;
+  height: 20vh;
+  background-color: #000;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  .footer p {
+    margin-top: 3rem;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1rem; }
+
+@media only screen and (width: 1200px) {
+  body {
+    padding: 0; }
+    body .main div {
+      display: none; } }
+
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 0; }
+    body .main .side-bar {
+      display: none; } }
+
+@media only screen and (max-width: 400px) {
+  body {
+    padding: 0; }
+    body .main .side-bar {
+      display: none; } }

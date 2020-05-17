@@ -1,0 +1,125 @@
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    .side-bar{
+        margin-top: 5rem;
+        height: 100%;
+        width:25%; 
+        display: flex;
+        flex-wrap: nowrap; 
+        flex-direction: column;
+        .title{
+            margin-top: 3rem;
+            margin-bottom: 1rem;
+            background-color: #000;
+            text-align: center;
+            color: #fff;
+            font-size: 2rem;
+            margin-left: 5rem;
+            margin-right: 5rem;
+            text-transform: uppercase;
+        } 
+
+        .content{
+            span{
+                font-size: 1.1rem;
+                margin-left: 5rem;
+                display: block;
+                line-height: 2rem;
+            }
+        }
+    }
+    .main-content{
+        margin-top: 4rem;
+        height: 100%;
+        width: 75%; 
+        border-left: .4rem double #000;
+        .about, .education , .experience, .achievement, .projects{
+            margin-left: 4rem;
+            margin-bottom: 4rem;
+        }
+        h3{
+            color: #10b468;
+        }
+
+        .title{
+            text-transform: uppercase;
+            background-color: #000;
+            color: #fff;
+            padding: 1rem;
+            width: 20%;
+            margin-bottom: 1rem;
+            &::after{
+                content: "";
+                width: 100%;
+                display: block;
+                border: 3px solid #10b468;
+            }
+        }
+        .text{
+            font-size: 1rem;
+            text-align: justify;
+            text-justify: inter-word;
+            margin-bottom: 1rem;
+        }
+        .education{
+            h3{
+                line-height: 3rem;
+            }
+            h4{
+                letter-spacing: .1rem;
+                line-height: 1.2rem;
+            }
+        }
+        .experience{
+            h3{
+                line-height: 3rem;
+            }
+            h4{
+                letter-spacing: .1rem;
+                line-height: 1.2rem;
+            }
+        }
+        .achievement{
+            h3{
+                line-height: 3rem;
+            }
+            h4{
+                letter-spacing: .1rem;
+                line-height: 1.2rem;
+            }
+        }
+        .projects{
+            h3{
+                line-height: 3rem;
+            }
+            h4{
+                letter-spacing: .1rem;
+                line-height: 1.2rem;
+            }
+        }
+    }
+
+  .skill{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      i{
+          margin-bottom:1rem ;
+          display: block;
+      }
+  }
+  .hobbies{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    i{
+        margin-bottom:1rem ;
+        display: block;
+    }  
+  }
+}
