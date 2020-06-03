@@ -188,34 +188,3 @@ h4 {
       width: 100%;
       font-size: 1rem;
       text-align: center; } }
-
-@media (max-width: 576px) {
-  .header .content .logo {
-    width: 4rem;
-    height: 4rem;
-    transform: translate(-443%, 12%); }
-    .header .content .logo img {
-      border: 1px solid #4d473a; }
-  .header .content .profiler-intro {
-    line-height: 1.5; }
-    .header .content .profiler-intro .first-name {
-      font-size: 2rem;
-      letter-spacing: .2rem; }
-    .header .content .profiler-intro .last-name {
-      font-size: 2rem;
-      letter-spacing: .2rem; }
-    .header .content .profiler-intro .position {
-      letter-spacing: .2rem;
-      font-size: .8rem; }
-  .main .side-bar {
-    display: none; }
-  .main .main-content {
-    padding: 0;
-    border-left: none; }
-    .main .main-content .title {
-      width: 100%;
-      font-size: 1rem;
-      text-align: center; }
-    .main .main-content .education h3 {
-      line-height: 1rem !important;
-      font-size: 1rem !important; } }
