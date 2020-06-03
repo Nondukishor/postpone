@@ -170,11 +170,11 @@ h4 {
 @media only screen and (max-width: 600px) {
   body {
     padding: 0; }
-    body .main .side-bar {
+    body .main div {
       display: none; } }
 
 @media only screen and (max-width: 400px) {
   body {
     padding: 0; }
-    body .main .side-bar {
+    body .main div {
       display: none; } }
