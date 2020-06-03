@@ -1,38 +1,115 @@
-@media only screen and (width: 1200px) {
-    body {
-      padding: 0;
-      .main{
-          div{
-              display: none;
-          }
-      }
-    }
-  }
-
-
-
-@media only screen and (max-width: 600px) {
-    body {
-      padding: 0;
-      .main{
-        div{
-            display: none;
-          }
-      }
-    }
-  }
-
-
-  
-
-@media only screen and (max-width: 400px) {
-    body {
-      padding: 0;
-      .main{
-        div{
-            display: none;
+@media (min-width: 576px) {
+  .header{
+    .content{
+      .logo{
+        width: 4rem;
+        height: 4rem;
+        transform: translate(-443%, 12%);
+        img{
+          border: 1px solid #4d473a;
         }
       }
+      .profiler-intro{
+        line-height: 1.5;
+          .first-name{
+            font-size: 2rem;
+            letter-spacing: .2rem;
+          }
+          .last-name{
+            font-size: 2rem;
+            letter-spacing: .2rem;
+          }
+          .position{
+            letter-spacing: .2rem;
+            font-size: .8rem;
+          }
+        
+      }
+    }
+
+  }
+  .main{
+    .side-bar{
+      display: none;
+    }
+    .main-content{
+      padding: 0;
+      border-left: none;
+      .title{
+        width: 100%;
+        font-size: 1rem;
+        text-align: center;
+      }
+    }
+  }
+}
+
+
+@media (max-width: 576px) {
+  .header{
+    .content{
+      .logo{
+        width: 4rem;
+        height: 4rem;
+        transform: translate(-443%, 12%);
+        img{
+          border: 1px solid #4d473a;
+        }
+      }
+      .profiler-intro{
+        line-height: 1.5;
+          .first-name{
+            font-size: 2rem;
+            letter-spacing: .2rem;
+          }
+          .last-name{
+            font-size: 2rem;
+            letter-spacing: .2rem;
+          }
+          .position{
+            letter-spacing: .2rem;
+            font-size: .8rem;
+          }
+        
+      }
+    }
+
+  }
+  .main{
+    .side-bar{
+      display: none;
+    }
+    .main-content{
+      padding: 0;
+      border-left: none;
+
+      .title{
+        width: 100%;
+        font-size: 1rem;
+        text-align: center;
+      }
+      
+      .education h3 {
+          line-height: 1rem !important;
+          font-size: 1rem !important;
+        }
       
     }
   }
+}
+
+@media (min-width: 768px) {
+  
+}
+
+@media (min-width: 992px) {
+ 
+}
+
+@media (min-width: 1200px) {
+ 
+}
+
+@media (min-width: 1400px) {
+  
+}
