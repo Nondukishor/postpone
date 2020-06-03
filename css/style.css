@@ -161,7 +161,7 @@ h4 {
     color: #ffffff;
     font-size: 1rem; }
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .header .content .logo {
     width: 4rem;
     height: 4rem;
