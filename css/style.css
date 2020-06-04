@@ -187,4 +187,29 @@ h4 {
     .main .main-content .title {
       width: 100%;
       font-size: 1rem;
-      text-align: center; } }
+      text-align: center; }
+    .main .main-content .education h3 {
+      font-size: .8rem;
+      line-height: 1rem; }
+    .main .main-content .about-institute {
+      font-size: .7rem;
+      letter-spacing: none;
+      font-style: unset; }
+    .main .main-content .experience h3 {
+      font-size: .8rem;
+      line-height: 1rem; }
+    .main .main-content .text {
+      font-size: .7rem;
+      font-style: unset; }
+    .main .main-content .achievement h3 {
+      line-height: 1rem;
+      font-size: .8rem; }
+    .main .main-content .achievement h4 {
+      font-size: 0.7rem;
+      font-style: unset; }
+    .main .main-content .projects h3 {
+      line-height: 1rem;
+      font-size: 1rem; }
+    .main .main-content .projects h4 {
+      line-height: 1rem;
+      font-size: .7rem; } }
